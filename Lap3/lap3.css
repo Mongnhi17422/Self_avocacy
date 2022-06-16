@@ -1,0 +1,79 @@
+.Part5{
+    width: 100%;
+    height: 700px;
+}
+.max-width {
+    max-width: 1300px;
+    padding: 50px;
+    margin: 0px auto;
+}
+.max-width .title {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 20;
+}
+.orange-bar {
+    width: 100px;
+    height: 2px;
+    background-color: orange;
+    margin-top: 30px;
+    margin-left: 600px;
+}
+.cities{
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-between;
+    width: 1200px;
+}
+.cities .city {
+    width: 200px;
+    height: fit-content;
+}
+.cities .city h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    font-weight: 35;
+}
+.cities .city .eaters {
+    display: flex;
+    flex-direction: row;
+    margin-top: -15px;
+}
+.cities .city .chefs {
+    display: flex;
+    flex-direction: row;
+    margin-top: -25px;
+}
+.cities .city .mail {
+    display: flex;
+    flex-direction: row;
+    margin-top: -30px;
+}
+.cities .city .eaters i{
+    line-height: 52px;
+    color: orange;
+    
+}
+.cities .city .chefs i{
+    line-height: 52px;
+    color: orange;
+}
+.cities .city .mail i{
+    line-height: 52px;
+    color: orange;
+}
+.cities .city .eaters h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 15;
+}
+.cities .city .chefs h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 15;
+}
+.cities .city .mail h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 15;
+    text-decoration: underline;
+    color: orange;
+}
