@@ -15,7 +15,8 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
     text-align: center;
-    font-weight: 20;
+    font-weight: 10;
+    height: 30;
 }
 .orange-bar {
     width: 100px;
@@ -43,11 +44,16 @@
     color: orange;
     margin-left: 20px;
     margin-top:-30px;
-    margin-bottom: -25px;
+    margin-bottom: -50px;
 
 }
+.board .in_board .title .price h1{
+    font-size: 50px;
+    font-weight: 20;
+}
+
 .board .in_board .title .price h4{
-    line-height:50px
+    line-height:120px
 }
 
 .content{
