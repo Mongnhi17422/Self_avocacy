@@ -35,3 +35,9 @@ function Dong_ho() {
 var Dem_gio = setInterval(Dong_ho, 1000);
 
 
+// Js: let hour = new Date();
+// console.log(hour.getHours());
+// let minute = new Date();
+// console.log(minute.getMinutes());
+// let second = new Date();
+// console.log(second.getSeconds());
