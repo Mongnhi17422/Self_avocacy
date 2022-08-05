@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('./background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    margin-top: 240px;
+    width: 300px;
+    height: 310px;
+    padding: 10px 30px 30px;
+    border-radius: 10px;
+    background-color: rgb(223, 238, 224);
+}
+
+.container .header h1{
+    color: teal;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1500;
+}
+
+.container input {
+    padding-left: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 100%;
+    border: 1px solid #0093ab;
+    outline: none;
+    border-radius: 10px;
+}
+
+
+.container .signIn {
+    padding: 8px 15px;
+    border:2px solid rgb(6, 107, 38);
+    outline: none;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: springgreen;
+    color: rgb(6, 63, 36);
+}
+
+.container input::placeholder {
+    color: black;
+}
+
+.container .signUp-link {
+    display: block;
+    transform: translateX(120px);
+    margin-bottom: 10px;
+}

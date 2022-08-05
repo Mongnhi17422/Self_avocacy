@@ -38,7 +38,7 @@ const foo3 = (a, b) => a+b*100
 
 // Bai 4:
 
-
+https://github.com/hieu1966hn/HDT-JSA22/tree/main/SS9/ChuaBT_checkpoint2
 
 
 
