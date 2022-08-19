@@ -13,3 +13,4 @@ function signup() {
     localStorage.setItem(username, json);
     alert('Chúc mừng, bạn đã đăng ký thành công!');
 };
+
