@@ -54,43 +54,13 @@
     font-size: 18px;
 }
 
-.bai-giang {
+.list {
     width: 100%;
-    display: flex;
-    border-top: 1px solid cadetblue;
+    font-size: 25px;
+    border-top: 1px solid rgb(29, 106, 14);
 }
-
-.bai-giang .tai-lieu {
-    width: 80%;
-    margin: 3%;
-    border: 1px solid rgb(133, 199, 11);
-    border-radius: 10px;
-    text-align: center;
-    background-color: rgb(219, 236, 243);
-}
-
-.bai-giang .tai-lieu .test {
-    width: 85%;
-    height: 150px;
-    background-color: rgb(216, 213, 208);
-    border: 1px solid;
-    margin: 35px 50px;
-    display: block;
-    
-}
-
-.bai-giang .tai-lieu .test h2 {
-    margin-top: 30px;
-    color: rgb(61, 79, 9);
-}
-
-.bai-giang .tai-lieu .test a {
-    text-decoration: none;
-    font-size: 20px;
-}
-.bai-giang .tai-lieu .test a:hover {
-    color: red;
-    background-color: yellowgreen;
+.list ol {
+    margin: 5% 20%;
 }
 
 .Part1 {
