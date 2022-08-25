@@ -40,71 +40,30 @@
     color: tomato;
 }
 
-.Part1 {
-    width: 100%;
-    background-image: url('./image/sc.webp');
-    background-repeat: no-repeat;
+.title {
     height: 300px;
-    margin-top: 3%;
-}
-.Part1 h1 {
-   width: 100%;
-   height: 10%;
-   color: rgb(126, 41, 42);
-   z-index: 20;
-   font-size: 50px;
-   padding-top: 125px;
-   display: flex;
-   justify-content: center;
+    background-image: url('./image/Tu-vung-tieng-Tay-Ban-Nha-chu-de-toan-hoc-1.jpg');
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 3% 0%;
 }
 
-.Part2 {
-    width: 100%;
-}
-
-.Part2 .test .bai-thi a img {
-    width: 300px;
-    height: 400px;
-    margin: ;
-}
-
-.Part2 .test .bai-thi a{
-    margin: 2% 5%;
-    background-color:rgb(233, 233, 227);
-    border-radius: 3px;
-    width: 300px;
-    height: 440px;
-    text-decoration: none;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 600;
-    color: red;
-}
-
-.Part2 .test {
-    width: 90%;
-    margin: 5%;
-    background-color: rgb(240, 240, 240);
-}
-
-.Part2 .test .bai-thi {
-    display: flex;
-    justify-content: space-between;
+.list {
     width: 80%;
-    margin: 5%;
+    font-size: 25px;
+}
+.list ol {
+    margin: 5% 10%;
 }
 
-.Part2 .test .bai-thi a:hover{
-    background-color: aqua;
-}
-
-.Part3 {
+.Part1 {
     width: 100%;
     height: 100px;
     background-color: rgb(240, 240, 240);
 }
 
-.Part4 {
+.Part2 {
     width: 100%;
     height: 100px;
 }
@@ -131,5 +90,6 @@
     margin-top: 1%;
     text-align: justify;
 }
+
 
 

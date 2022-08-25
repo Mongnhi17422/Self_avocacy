@@ -40,71 +40,36 @@
     color: tomato;
 }
 
-.Part1 {
-    width: 100%;
-    background-image: url('./image/sc.webp');
-    background-repeat: no-repeat;
+.title {
     height: 300px;
-    margin-top: 3%;
-}
-.Part1 h1 {
-   width: 100%;
-   height: 10%;
-   color: rgb(126, 41, 42);
-   z-index: 20;
-   font-size: 50px;
-   padding-top: 125px;
-   display: flex;
-   justify-content: center;
-}
-
-.Part2 {
-    width: 100%;
-}
-
-.Part2 .test .bai-thi a img {
-    width: 300px;
-    height: 400px;
-    margin: ;
-}
-
-.Part2 .test .bai-thi a{
-    margin: 2% 5%;
-    background-color:rgb(233, 233, 227);
-    border-radius: 3px;
-    width: 300px;
-    height: 440px;
-    text-decoration: none;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 600;
-    color: red;
-}
-
-.Part2 .test {
-    width: 90%;
-    margin: 5%;
-    background-color: rgb(240, 240, 240);
-}
-
-.Part2 .test .bai-thi {
+    background-image: url('./image/bang.jpg');
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 3% 0%;
     display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin: 5%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(203, 197, 18);
+    font-size: 18px;
 }
 
-.Part2 .test .bai-thi a:hover{
-    background-color: aqua;
+.list {
+    width: 100%;
+    font-size: 25px;
+    border-top: 1px solid rgb(29, 106, 14);
+}
+.list ol {
+    margin: 5% 20%;
 }
 
-.Part3 {
+.Part1 {
     width: 100%;
     height: 100px;
     background-color: rgb(240, 240, 240);
 }
 
-.Part4 {
+.Part2 {
     width: 100%;
     height: 100px;
 }
@@ -131,5 +96,6 @@
     margin-top: 1%;
     text-align: justify;
 }
+
 
 
