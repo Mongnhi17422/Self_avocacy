@@ -57,6 +57,7 @@
     justify-content: center;
     margin-bottom: 20px;
     border: solid 1px green;
+    text-align: center;
 }
 
 .box-question h3 {
