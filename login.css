@@ -39,3 +39,182 @@
 .header .menu a:hover {
     color: tomato;
 }
+
+
+.site {
+    width: 50%;
+    background-color: rgb(106, 194, 124);
+    margin: 10% 25%;
+}
+
+.site .container .wrapper {
+    padding: 80px 30px;
+}
+.site .container .wrapper .login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.site .container .wrapper .signup {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.content-heading .y-style .welcome {
+    margin: 70% 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.content-heading .y-style .welcome h2 {
+    font-size: 30px;
+    color: rgb(209, 61, 11);
+}
+
+.content-heading .y-style .welcome p {
+    color: rgb(237, 231, 232);
+}
+
+
+.content-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login {
+    display: none!important;
+}
+
+form input:not(#terms, #remember) {
+    font-family: inherit;
+    width: 100%;
+    outline: 0;
+    margin: 0 0 22px;
+    border-radius: 15px;
+    border: 1px solid rgb(7, 88, 14);
+    line-height: 30px;
+    padding-left: 2%;
+}
+
+form input::placeholder {
+    color: rgb(175, 200, 200);
+}
+
+form button {
+    background-color: rgb(156, 203, 15);
+    color: aliceblue;
+    width: 30%;
+    margin: 30px 0;
+    line-height: 25px;
+    border-radius: 20px;
+    border-color: aliceblue;
+    font-weight: 900;
+    cursor: pointer;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+}
+
+form button:hover {
+    background-color: rgb(6, 77, 30);
+    color: tomato;
+}
+
+.submit {
+    margin: 20px 90px;
+}
+
+
+.afterform {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    color: brown;
+}
+
+.afterform a {
+    text-decoration: none;
+    font-weight: 900;
+} 
+
+.afterform a:hover {
+    color: aliceblue;
+    border-radius: 20px;
+    background-color: rgb(8, 59, 59);
+    padding: 5px;
+}
+
+.afterform i {
+    color: rgb(97, 59, 9);
+}
+
+.submit:hover {
+    color: yellowgreen;
+    background-color: aliceblue;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-form::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate3d(3%, 5%, 0px);
+    -webkit-transform: translate3d(-7%, 5%, 0px);
+    
+}
+
+.y-style {
+    position: relative;
+}
+
+.social :is(ul, p) {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 20px;
+    margin: 20px 0;
+    font-weight: 500;
+    
+}
+
+.social ul li {
+    list-style-type: none;
+    color: teal;
+   
+}
+
+.social p::before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 90%;
+    background-color: rgb(241, 236, 236);
+    top: 0;
+    margin-top: 11px;
+}
+
+.social p span {
+    background-color: white;
+    z-index: 1;
+    padding: 0 10px;
+    color:rgb(144, 164, 181);
+}
+
+
+
+
+        
+       
+    
+

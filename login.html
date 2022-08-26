@@ -10,6 +10,8 @@
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <LINK REL="SHORTCUT ICON"  HREF="./image/blacklogo.png">
+
 </head>
 <body>
     <script src="./login.js"></script>
@@ -27,10 +29,10 @@
     <div id="page" class="site">
         <div class="container">
             <div class="wrapper">
+
                 <div class="login">
                     <div class="content-heading">
                         <div class="y-style">
-                            <div class="logo"><a href="#">Sefl<span>-Advocacy</span></a></div>
                             <div class="welcome">
                                 <h2>Welcome <br> Back!</h2>
                                 <p>Get start to be creative.</p>
@@ -48,15 +50,19 @@
                                 <label>Password</label>
                                 <input type="password" placeholder="Enter password">
                             </p>
-                            <p class="check">
-                                <label for="remember">Remember</label>
-                                <input type="checkbox" id="remember">
-                            </p>
-                            <p class="forgot"><a href="#">Forgot password </a></p>
-                            <p><button type="submit">Login</button></p>
+                            <div class="footer">
+                                <p class="check">     
+                                    <input type="checkbox" id="remember">
+                                    <label for="remember">Remember</label>
+                                </p>
+                                <p class="forgot"><a href="#">Forgot password? </a></p>
+                            </div>
+                            
+                            <p><button class="submit" type="submit">Login</button></p>
                         </form>
                         <div class="afterform">
-                            <p>Don't have an account</p>
+                            <p>Don't have an account </p>
+                            <i class="fa-solid fa-hand-point-right"></i>
                             <a href="#" class="t-signup">Sign Up</a>
                         </div>
                         </div>
@@ -66,9 +72,9 @@
                 <div class="signup">
                     <div class="content-heading">
                         <div class="y-style">
-                            <div class="logo"><a href="#">Sefl<span>-Advocacy</span></a></div>
+                            
                             <div class="welcome">
-                                <h2>Sig Up<br> Now</h2>
+                                <h2>Sign Up<br> Now</h2>
                                 <p>Ready to be creative? <br> We can help you grow.</p>
                             </div>
                         </div>
@@ -89,14 +95,25 @@
                                 <input type="password" placeholder="Enter password">
                             </p>
                             <p class="check">
-                                <label for="terms">I agree to all statements included in <a href="Terms of Use"></a></label>
                                 <input type="checkbox" id="terms">
+                                <label for="terms">I agree to all statements included in <a href="#">Terms of Use</a></label>
                             </p>
-                            <p><button type="submit">Sign Up</button></p>
+                            <p><button class="submit" type="submit">Sign Up</button></p>
                         </form>
+                        <div class="social">
+                            <p><span>Or sign up with</span></p>
+                            <ul>
+                                <li><a href="#" class="google"></a><i class="fa-brands fa-google-plus-g"></i></li>
+                                <li><a href="#" class="facebook"></a><i class="fa-brands fa-facebook"></i></li>
+                                <li><a href="#" class="twitter"></a><i class="fa-brands fa-twitter"></i></li>
+                            </ul>
+                        </div>
                         <div class="afterform">
-                            <p>Don't have an account</p>
-                            <a href="#" class="t-signup">Sign Up</a>
+                            <p>Already have an account?</p>
+                            <i class="fa-solid fa-hand-point-right"></i> 
+                            <a href="#" class="t-login">Login</a>
+
+                            
                         </div>
                         </div>
                     </div>
