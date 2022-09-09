@@ -128,4 +128,23 @@
 }
 
 
+.Part5 {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(240, 240, 240);   
+}
+
+.Part5 .main-p5 {
+    margin: 0 10%;
+    
+}
+
+
+
+.Part6 {
+    width: 100%;
+    height: 450px;
+    margin: 0 10%;
+}
+
 
